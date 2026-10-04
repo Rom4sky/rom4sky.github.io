@@ -8,16 +8,25 @@ subfolder.
 
 ### TikTok fact bot
 
+* Official website page: https://rom4sky.github.io/tiktok-fact-bot/
 * Terms of Service: https://rom4sky.github.io/tiktok-fact-bot/terms.html
 * Privacy Policy: https://rom4sky.github.io/tiktok-fact-bot/privacy.html
+* OAuth callback (TikTok Login Kit redirect URI): https://rom4sky.github.io/tiktok-fact-bot/callback.html — displays the authorization code from the URL so it can be copied into the local OAuth script during the one-time authorization step.
 
 ## Structure
 
 ```
 rom4sky.github.io/
+
 └── tiktok-fact-bot/
-    ├── terms.html
-    └── privacy.html
+
+&#x20;   ├── index.html      — landing page (official website URL for TikTok app)
+
+&#x20;   ├── terms.html       — Terms of Service (UA/EN)
+
+&#x20;   ├── privacy.html      — Privacy Policy (UA/EN)
+
+&#x20;   └── callback.html      — OAuth redirect URI, shows auth code for copy-paste
 ```
 
 New projects get their own subfolder here rather than a new repository.
