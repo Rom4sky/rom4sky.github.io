@@ -17,16 +17,11 @@ subfolder.
 
 ```
 rom4sky.github.io/
-
 └── tiktok-fact-bot/
-
-&#x20;   ├── index.html      — landing page (official website URL for TikTok app)
-
-&#x20;   ├── terms.html       — Terms of Service (UA/EN)
-
-&#x20;   ├── privacy.html      — Privacy Policy (UA/EN)
-
-&#x20;   └── callback.html      — OAuth redirect URI, shows auth code for copy-paste
+    ├── index.html      — landing page (official website URL for TikTok app)
+    ├── terms.html       — Terms of Service (UA/EN)
+    ├── privacy.html      — Privacy Policy (UA/EN)
+    └── callback.html      — OAuth redirect URI, shows auth code for copy-paste
 ```
 
 New projects get their own subfolder here rather than a new repository.
