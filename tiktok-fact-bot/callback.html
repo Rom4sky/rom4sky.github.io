@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Авторизація — Цікаві факти 💡</title>
+<title>Авторизація — Цікаві факти💡</title>
 <style>
   :root { color-scheme: light; }
   body {
@@ -27,6 +27,14 @@
     word-break: break-all;
     margin-bottom: 1.5rem;
     user-select: all;
+  }
+  .message-box {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.25rem;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
   }
   button {
     background: #000;
@@ -72,12 +80,12 @@
     resultEl.appendChild(button);
   } else if (error) {
     const box = document.createElement("div");
-    box.className = "code-box error";
+    box.className = "message-box error";
     box.textContent = `Помилка: ${error}${errorDescription ? " — " + errorDescription : ""}`;
     resultEl.appendChild(box);
   } else {
     const box = document.createElement("div");
-    box.className = "code-box";
+    box.className = "message-box";
     box.textContent = "Код не знайдено в URL. Перевір, чи ти потрапив сюди через процес авторизації TikTok.";
     resultEl.appendChild(box);
   }
